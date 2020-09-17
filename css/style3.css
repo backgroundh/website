@@ -1,0 +1,306 @@
+
+#main2 .type3 .ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+#main2 ul{display:inline-block;}
+
+/*수정*/
+#main2 .type3 .ch-grid1{position: absolute; top:150px; left:42%}
+#main2 .type3 .ch-item1{
+	width: 200%;
+	height: 200%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+#main2 .type3 .ch-grid2{position: absolute; top:130px; left:70%;}
+
+#main2 .type3 .ch-item2{
+	width: 120%;
+	height: 120%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+#main2 .type3 .ch-grid3{position: absolute; top:100px; left:20%}
+#main2 .type3 .ch-item3{
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+#main2 .type3 .ch-thumb {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5);
+	
+	-webkit-transform-origin: 95% 40%;
+	-moz-transform-origin: 95% 40%;
+	-o-transform-origin: 95% 40%;
+	-ms-transform-origin: 95% 40%;
+	transform-origin: 95% 40%;
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/*수정*/
+#main2 .type3 .ch-thumb.ch-img-1 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5);
+	
+	-webkit-transform-origin: 40% 95%;
+	-moz-transform-origin: 40% 95%;
+	-o-transform-origin: 40% 95%;
+	-ms-transform-origin: 40% 95%;
+	transform-origin: 40% 95%;
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+#main2 .type3 .ch-thumb:after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	border-radius: 50%;
+	top: 40%;
+	left: 95%;
+	margin: -4px 0 0 -4px;
+	background: rgb(14,14,14);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(14,14,14,1)), color-stop(100%,rgba(125,126,125,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	box-shadow: 0 0 1px rgba(255,255,255,0.9);
+}
+
+#main2 .type3 .ch-thumb.ch-img-1:after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	border-radius: 50%;
+	top: 95%;
+	left: 40%;
+	margin: -4px 0 0 -4px;
+	background: rgb(14,14,14);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(14,14,14,1)), color-stop(100%,rgba(125,126,125,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
+	box-shadow: 0 0 1px rgba(255,255,255,0.9);
+}
+
+
+
+/* 뚜껑수정*/
+#main2 .type3 .ch-img-1 { 
+	background-image: url(../images/kh_bg.png);
+	background-size: 100% 100%;
+	z-index: 12;
+	line-height: 3em;
+	font-family: ;
+	color:#000;
+	font-weight: bold;
+}
+
+#main2 .type3 .ch-img-1 .name{padding-top:15%; font-size: 1.5em;}
+
+#main2 .type3 .ch-img-1 .info{font-size: 1.1em;}
+
+#main2 .type3 .ch-img-2 { 
+	background:url(../images/contact_certi.png) no-repeat ;
+	background-size: 100%;		
+	z-index: 11;
+
+}
+#main2 .type3 .ch-img-2 h2{font-size: 2.5em; padding-top: 100px;}
+
+#main2 .type3 .ch-img-3 { 
+	background:url(../images/resume_bg.png);
+	background-size: 100%;;
+	background-color: #FFF5A1;
+	z-index: 10;
+}
+
+#main2 .type3 .ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	background:url(../images/noise.png);
+	box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
+}
+
+/*수정*/
+#main2 .type3 .kh {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	border-radius: 50%;
+	overflow: hidden;
+	background:url(../images/kh.png);
+	background-size: 100% 100%;
+	box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
+}
+#main2 .type3 .certi{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	background:url(../images/noise.png);
+	background-color: #FFC4D0;
+	box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
+}
+#main2 .type3 .logo{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	background:url(../images/noise.png), url(../images/resume_bg2.png);
+	background-size: 100%;
+	background-color:#FFF5A1;
+	box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
+}
+
+#main2 .type3 .logo img{width:100%;}
+
+
+#main2 .type3 .ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin: 0 60px;
+	padding: 22px 0 0 0;
+	height: 85px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+#main2 .type3 .ch-info p {
+	color: #fff;
+	font-weight: bold;
+	padding: 20px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 17px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+#main2 .type3 .ch-info p:first-child {
+	color: #Fff;
+	font-weight: bold;
+	padding: 30px 5px 20px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 17px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+#main2 .type3 .ch-info p a {
+	display: block;
+	color: #333;
+	width: 80px;
+	height: 80px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 50%;
+	color: #FF5778;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 24px;
+	margin: 7px auto 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+	opacity: 0;
+	
+	-webkit-transition: 
+		-webkit-transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+	-moz-transition: 
+		-moz-transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+	-o-transition: 
+		-o-transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+	-ms-transition: 
+		-ms-transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+	transition: 
+		transform 0.3s ease-in-out 0.2s,
+		opacity 0.3s ease-in-out 0.2s,
+		background 0.2s linear 0s;
+		
+	-webkit-transform: translateX(60px) rotate(90deg);
+	-moz-transform: translateX(60px) rotate(90deg);
+	-o-transform: translateX(60px) rotate(90deg);
+	-ms-transform: translateX(60px) rotate(90deg);
+	transform: translateX(60px) rotate(90deg);
+		
+	-webkit-backface-visibility: hidden;
+}
+
+#main2 .type3 .ch-info p a:hover {
+	background: rgba(255,255,255,0.5);
+}
+#main2 .type3 .ch-item:hover .ch-thumb {
+	box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5), 0 1px 3px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(-110deg);
+	-moz-transform: rotate(-110deg);
+	-o-transform: rotate(-110deg);
+	-ms-transform: rotate(-110deg);
+	transform: rotate(-110deg);
+}
+#main2 .type3 .ch-item:hover .ch-info p a{
+	opacity: 1;
+	-webkit-transform: translateX(0px) rotate(0deg);
+	-moz-transform: translateX(0px) rotate(0deg);
+	-o-transform: translateX(0px) rotate(0deg);
+	-ms-transform: translateX(0px) rotate(0deg);
+	transform: translateX(0px) rotate(0deg);
+}
